@@ -51,13 +51,7 @@ For example:
 git checkout -b add-hritik
 ```
 
-## Add new file 
 
-If the folder for that topic exist , add a new cpp file with file name as problem number. if the folder for that topic does not exist , create a new one and add the cpp file . 
-For example : 
-```
-for the problem reverse the array 3 : array->0.cpp   
-```
 
 ## Make necessary changes and commit those changes
 
