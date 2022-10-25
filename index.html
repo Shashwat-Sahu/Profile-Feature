@@ -3,7 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        *{
+            font-family: Roboto;
+        }
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             max-width: 300px;
@@ -39,13 +44,24 @@
         a:hover {
             opacity: 0.7;
         }
+
+        @media screen and (max-width: 992px) {
+            .card{
+                margin: auto;
+                display: block;
+            }
+            
+        }
     </style>
 </head>
 
 <body>
 
-    <h2 style="text-align:center">Profile-Feature</h2>
+    <h1 style="text-align:center">Profile-Feature</h1>
+
     <!-- Copy below code without comment and add your details -->
+
+
     <!-- <div class="card">
         <img src="" style="width:100%">
         <h1>Name</h1>
@@ -57,7 +73,11 @@
         </div>
         <p><a href="mailto:emailid" class="emails">Email</a></p>
     </div> -->
+
+    
     <!-- Sample below -->
+
+
     <div class="card">
         <img src="https://avatars.githubusercontent.com/u/63558563?v=4" style="width:100%">
         <h1>Shashwat Sahu</h1>
@@ -66,8 +86,7 @@
         <div style="margin: 24px 0;">
             <a href="https://www.linkedin.com/in/shashwat-sahu-1427501aa/" target="_blank"><i
                     class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/Shashwat-Sahu" target="_blank"><i
-                    class="fa fa-github"></i></a>
+            <a href="https://github.com/Shashwat-Sahu" target="_blank"><i class="fa fa-github"></i></a>
         </div>
         <p><a href="mailto:shashwatsahu25@gmail.com" class="emails">Email</a></p>
     </div>
