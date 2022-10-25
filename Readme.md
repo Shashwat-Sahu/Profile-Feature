@@ -2,8 +2,6 @@
 <b>Note</b>: Please fetch upstream before making pull request to update your local repo.
 <br/>
 
-Go to index.html and follow what is written in comments
-
 To contribute, add your code / file in respective folders.
 # Contribution Guide
 ##### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
@@ -31,30 +29,9 @@ For example:
 git clone https://github.com/parteek10/450DSA.git
 ```
 
-## Create a branch
-
-Change to the repository directory on your computer (if you are not already there):
-
-```
-cd directory-name
-```
-
-Now create a branch using the `git checkout` command:
-
-```
-git checkout -b your-new-branch-name
-```
-
-For example:
-
-```
-git checkout -b add-hritik
-```
-
-
 
 ## Make necessary changes and commit those changes
-
+Go to index.html and follow what is written in comments
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 Add those changes to the branch you just created using the command:
