@@ -1,5 +1,6 @@
 # Profile Feature
 <b>Note</b>: Please fetch upstream before making pull request to update your local repo.
+Also for each commit make one PR and wait for it to be approved. Don't make all changes or commits in one PR.
 <br/>
 
 To contribute, add your code / file in respective folders.
